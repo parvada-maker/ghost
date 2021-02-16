@@ -11,7 +11,7 @@ ghost=createSprite(windowWidth/2, windowHeight/2,10,10);
 }
 
 function draw(){
-  background('purple')
+  background('red')
 drawSprites();
   
 }
