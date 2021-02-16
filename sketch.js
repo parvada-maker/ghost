@@ -6,7 +6,7 @@ function preload() {
 
 function setup(){
 createCanvas(windowWidth,windowHeight);
-ghost=createSprite(200,200,10,10);
+ghost=createSprite(windowWidth/2, windowHeight/2,10,10);
  ghost.addAnimation("scare",ghostwalk)
 }
 
